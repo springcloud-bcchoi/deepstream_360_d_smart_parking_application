@@ -1,4 +1,4 @@
-FROM python:3.6.4
+FROM python:rc-buster
 
 WORKDIR /home/python-tracker-module
 
