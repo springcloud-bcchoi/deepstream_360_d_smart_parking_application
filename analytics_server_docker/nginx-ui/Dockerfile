@@ -29,7 +29,7 @@ ENV REACT_APP_GOOGLE_MAP_API_KEY $REACT_APP_GOOGLE_MAP_API_KEY
 RUN npm run build
 
 # production environment
-FROM nginx
+FROM nginx:1.23.1
 
 COPY --from=ui-builder /home/ui/build /usr/share/nginx/html
 
