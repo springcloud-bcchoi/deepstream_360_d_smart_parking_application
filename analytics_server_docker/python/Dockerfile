@@ -1,4 +1,4 @@
-FROM python:3.6.4
+FROM python:3.12.0b4
 
 WORKDIR /home/python-tracker-module
 
