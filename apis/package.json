@@ -6,7 +6,7 @@
   "dependencies": {
     "cassandra-driver": "^3.5.0",
     "change-case": "^3.0.2",
-    "csvtojson": "^2.0.8",
+    "csvtojson": "^2.0.13",
     "deepcopy": "^1.0.0",
     "elasticsearch": "^15.1.1",
     "express": "^4.16.3",
